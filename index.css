@@ -10,7 +10,7 @@ body {
 }
 
 #banner {
-  height:46rem;
+  height:40rem;
   background-image: url("https://jaclynphillips.com/wp-content/uploads/2017/11/coffee-cup.jpg");
   background-position: center;
   background-size:cover;
@@ -55,25 +55,35 @@ body {
 .gallery-item .thumbnail {
   width: 240px;
   border-radius: 4px;
+  display: block;
+  margin: auto;
 }
 
 .location {
-  margin:auto;
+  margin: auto;
   align: center;
 }
 
 .location img {
-
+  display: block;
+  margin: auto;
+  border-radius: 4px;
+  width: 50%;
 }
 
 .location p {
   text-align: center;
+  font-weight:bold;
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .gallery-item .thumbnail {
     width: 95%;
-  };
+  }
+
+  .location img {
+    width: 85%;
+  }
 }
 
 
