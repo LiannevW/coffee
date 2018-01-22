@@ -1,0 +1,20 @@
+h1 {
+  color: black;
+}
+
+body {
+  margin: 0;
+}
+
+#banner {
+  height:46rem;
+  background-image: url("https://jaclynphillips.com/wp-content/uploads/2017/11/coffee-cup.jpg");
+  background-position: center;
+  background-size:cover;
+  font-size:1.5em;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
