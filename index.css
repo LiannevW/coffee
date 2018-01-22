@@ -86,10 +86,9 @@ body {
   }
 }
 
-
-/* HERE I WOULD LIKE THE BEAN IMAGE TO BE SHOWN ABOVE THE INFO TEXT
-@media only screen and (min-width: 1600px) {
+@media only screen and (max-width: 700px) {
   .info img {
-
-  }
-}*/
+    display: none;
+   }
+ }
+}
